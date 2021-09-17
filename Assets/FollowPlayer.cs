@@ -8,7 +8,7 @@ public class FollowPlayer : MonoBehaviour
     public Vector2 minimun;//Las coordenadas minimos a la que llegara la camara
     public Vector2 max;//Las coordenadas maximas a la que llegara la camara
     public float smoothed;//El tiempo en que llegara la camara
-    Vector2 velocity;
+    Vector2 velocity;//La velocidad a la que va el objetivo
     
     // Start is called before the first frame update
     void Start()
