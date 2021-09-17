@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class FollowPlayer : MonoBehaviour
 {
-    public GameObject Player;
-    public Vector2 minimun;
-    public Vector2 max;
-    public float smoothed;
+    public GameObject Player;//El objeto que es el jugador
+    public Vector2 minimun;//Las coordenadas minimos a la que llegara la camara
+    public Vector2 max;//Las coordenadas maximas a la que llegara la camara
+    public float smoothed;//El tiempo en que llegara la camara
     Vector2 velocity;
     
     // Start is called before the first frame update
