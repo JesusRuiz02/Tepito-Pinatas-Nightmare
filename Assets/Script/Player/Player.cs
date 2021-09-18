@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    public int maxHealth = 4;
+    public int maxHealth = 20;
     public int currentHealth;
     public bool onDeath = false;
 
