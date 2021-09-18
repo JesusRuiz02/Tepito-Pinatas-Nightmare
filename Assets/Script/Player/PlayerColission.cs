@@ -18,20 +18,7 @@ public class PlayerColission : MonoBehaviour
         
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        ProcessCollision(collision.gameObject);
-    }
-
-    private void ProcessCollision(GameObject collider)
-    {
-        if (collider.CompareTag("Enemy"))
-        {
-            LostLife();
-
-        }
-
-    }
+   
 
     private void LostLife()
     {
