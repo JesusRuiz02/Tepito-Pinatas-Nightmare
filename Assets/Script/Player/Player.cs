@@ -6,6 +6,7 @@ public class Player : MonoBehaviour
 {
     public int maxHealth = 4;
     public int currentHealth;
+    public bool onDeath = false;
 
     public HealthBar healthbar;
 
@@ -19,7 +20,7 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       if(Input.GetKeyDown(KeyCode.P))
+        if (Input.GetKeyDown(KeyCode.P))
         {
             TakeDamage(1);
         }
@@ -29,5 +30,9 @@ public class Player : MonoBehaviour
     {
         currentHealth -= damage;
         healthbar.SetHealth(currentHealth);
+        if (currentHealth <= 0)
+        {
+            FindObjectOfType<GameManager>().GameOver();
+        }
     }
 }
