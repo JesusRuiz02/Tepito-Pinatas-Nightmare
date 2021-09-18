@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy
   - Gameplay Areay
+  - Light
   layers:
   - Default
   - TransparentFX
@@ -38,7 +39,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - Light
   m_SortingLayers:
   - name: Default
     uniqueID: 0
