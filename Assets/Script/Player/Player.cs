@@ -7,6 +7,9 @@ public class Player : MonoBehaviour
     public int maxHealth = 20;
     public int currentHealth;
     public bool onDeath = false;
+    private int score = 0;
+    private GameManager gameManager;
+    private Lechuga lechuga;
     
 
     public HealthBar healthbar;
@@ -39,7 +42,29 @@ public class Player : MonoBehaviour
 
         }
 
+        if (collider.CompareTag("Point"))
+        {
+            scorePoint();
+            collider.GetComponent<Lechuga>();
+            Lechuga ingrediente = collider.GetComponent<Lechuga>();
+            ingrediente.destroy();
+            Debug.Log(score);
+        }
+
     }
+
+    void scorePoint()
+    {
+        score++;
+        if (score>=3)
+        {
+            gameManager.Ganaste();
+        }
+        
+        
+
+    }
+
 
     void TakeDamage(int damage)
     {

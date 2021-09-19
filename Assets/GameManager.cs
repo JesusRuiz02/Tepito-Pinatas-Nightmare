@@ -20,4 +20,9 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene("StartGame");
     }
+
+    public void Ganaste()
+    {
+        Debug.Log("Ganaste");
+    }
 }

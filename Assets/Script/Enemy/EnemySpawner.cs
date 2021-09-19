@@ -32,6 +32,8 @@ public class EnemySpawner : MonoBehaviour
          }
         
      }
+     
+     
 
      private void ProcessCollisionSpawn(GameObject collider)
      {

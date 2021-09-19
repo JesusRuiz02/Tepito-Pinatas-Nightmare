@@ -54,10 +54,12 @@ public class PlayerMovement : MonoBehaviour
     }
     //Ver orientacion para ataque
 
+    
 
 
     void FixedUpdate() //Movement
     {
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+        
     }
 }
