@@ -13,6 +13,7 @@ public class Player : MonoBehaviour
     private Lechuga lechuga;
     public GameObject canvas;
     public GameObject canvasLost;
+    public Animator AC;
     Text instruction;
 
     public HealthBar healthbar;
@@ -77,8 +78,14 @@ public class Player : MonoBehaviour
         healthbar.SetHealth(currentHealth);
         if (currentHealth <= 0)
         {
+            AC.SetBool("ded", true);
+            AC.SetBool("Atack", false);
+            AC.SetBool("M_Left", false);
+            AC.SetBool("M_Up", false);
+            AC.SetBool("M_Down", false);
             FindObjectOfType<GameManager>().GameOver();
             canvasLost.SetActive(true);
+
         }
     }
 }

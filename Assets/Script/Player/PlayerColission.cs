@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class PlayerColission : MonoBehaviour
 {
+
     public int life = 3;
     // Start is called before the first frame update
     void Start()
@@ -26,6 +27,7 @@ public class PlayerColission : MonoBehaviour
 
         if (life <= 0)
         {
+
             Debug.Log("Perdiste");
         }
         

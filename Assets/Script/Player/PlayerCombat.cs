@@ -19,6 +19,11 @@ public class PlayerCombat : MonoBehaviour
         {
             Attack();
         }
+        if (AC.GetCurrentAnimatorStateInfo(0).IsName("Atack") && !AC.IsInTransition(0))
+        {
+            AC.SetBool("Atack", false);
+            Debug.Log("anim_done");
+        }
     }
 
     void Attack()
@@ -34,7 +39,8 @@ public class PlayerCombat : MonoBehaviour
         }
     }
 
-    public void OnDrawGizmosSelected()
+
+        public void OnDrawGizmosSelected()
     {
         if (attackPoint == null)
         {

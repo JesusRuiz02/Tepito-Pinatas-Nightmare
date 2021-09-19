@@ -29,13 +29,13 @@ public class PlayerMovement : MonoBehaviour
                 spriteRenderer.flipX = true;
                 AC.SetBool("M_Down", false);
                 AC.SetBool("M_Up", false);
-                AC.SetBool("Atack", false);
+                //AC.SetBool("Atack", false);
         }
             else if (movement.x < 0)
             {
 
                 compro = false;
-                AC.SetBool("Atack", false);
+                //AC.SetBool("Atack", false);
                 AC.SetBool("M_Left", true);
                 spriteRenderer.flipX = false;
                 AC.SetBool("M_Down", false);
@@ -49,14 +49,14 @@ public class PlayerMovement : MonoBehaviour
             {
                 if (movement.y > 0)
                 {
-                    AC.SetBool("Atack", false);
+                    //AC.SetBool("Atack", false);
                     AC.SetBool("M_Left", false);
                     AC.SetBool("M_Up", true);
                     AC.SetBool("M_Down", false);
                 }
                 else if(movement.y<0)
                 {
-                    AC.SetBool("Atack", false);
+                    //AC.SetBool("Atack", false);
                     AC.SetBool("M_Left", false);
                     AC.SetBool("M_Up", false);
                     AC.SetBool("M_Down", true);
