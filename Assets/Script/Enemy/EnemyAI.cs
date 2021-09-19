@@ -1,4 +1,3 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -20,12 +19,7 @@ public class EnemyAI : MonoBehaviour
 
     Seeker seeker;
     Rigidbody2D rb;
-
-    private void Awake()
-    {
-        this.transform.position= new Vector3(transform.position.x,transform.position.y, 0);
-    }
-
+     
     void Start()
     {
         seeker = GetComponent<Seeker>();
