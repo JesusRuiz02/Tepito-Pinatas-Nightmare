@@ -6,9 +6,8 @@ public class PlayerMovement : MonoBehaviour
 {
     public Animator AC;
     public SpriteRenderer spriteRenderer;
-    public float moveSpeed = 5f;
     bool compro = false;
-    
+    public float moveSpeed = 5f;
     public Rigidbody2D rb;
     Vector2 movement;
 

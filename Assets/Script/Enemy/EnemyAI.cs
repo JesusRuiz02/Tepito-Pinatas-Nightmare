@@ -11,8 +11,8 @@ public class EnemyAI : MonoBehaviour
 
     public float speed = 200f;
     public float NextPointWayDistance = 3f;
-
     public Transform Enemygfx;
+
 
     Path path;
     private int Currentwaypoint = 0;
@@ -47,6 +47,9 @@ public class EnemyAI : MonoBehaviour
             path = p;
             Currentwaypoint = 0;
         }
+    }
+    private void Update()
+    {
     }
 
     // Update is called once per frame
