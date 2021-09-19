@@ -4136,6 +4136,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3474492911324667298, guid: 88c23bf8fbc95d2438caee7e7d17e8d4, type: 3}
       propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3474492911324667298, guid: 88c23bf8fbc95d2438caee7e7d17e8d4, type: 3}
+      propertyPath: m_Size.x
+      value: 5.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 3474492911324667298, guid: 88c23bf8fbc95d2438caee7e7d17e8d4, type: 3}
+      propertyPath: m_Size.y
+      value: 5.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 3474492911324667298, guid: 88c23bf8fbc95d2438caee7e7d17e8d4, type: 3}
+      propertyPath: m_WasSpriteAssigned
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3474492911324667298, guid: 88c23bf8fbc95d2438caee7e7d17e8d4, type: 3}
@@ -4203,6 +4215,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5645637023931534460, guid: 88c23bf8fbc95d2438caee7e7d17e8d4, type: 3}
+      propertyPath: AC
+      value: 
+      objectReference: {fileID: 3474492909706901365}
+    - target: {fileID: 5645637023931534460, guid: 88c23bf8fbc95d2438caee7e7d17e8d4, type: 3}
       propertyPath: attackRange
       value: 0.29
       objectReference: {fileID: 0}
@@ -4212,3 +4228,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 88c23bf8fbc95d2438caee7e7d17e8d4, type: 3}
+--- !u!95 &3474492909706901365 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 3474492911324667305, guid: 88c23bf8fbc95d2438caee7e7d17e8d4, type: 3}
+  m_PrefabInstance: {fileID: 3474492909706901364}
+  m_PrefabAsset: {fileID: 0}

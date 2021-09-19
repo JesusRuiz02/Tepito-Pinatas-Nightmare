@@ -13,44 +13,58 @@ public class PlayerMovement : MonoBehaviour
 
     void Update() //Input
     {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+
+        }
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
-        if(movement.x>0)
-        {
-            compro = false;
-            AC.SetBool("M_Left", true);
-            spriteRenderer.flipX = true;
-            AC.SetBool("M_Down", false);
-            AC.SetBool("M_Up", false);
-        }
-        else if(movement.x<0)
-        {
-            compro = false;
-            AC.SetBool("M_Left", true);
-            spriteRenderer.flipX = false;
-            AC.SetBool("M_Down", false);
-            AC.SetBool("M_Up", false);
-        }
-        else
-        {
-            compro = true;
-        }
-        if(compro==true)
+
+
+            if (movement.x > 0)
             {
-            if (movement.y > 0)
-            {
-                AC.SetBool("M_Left", false);
-                AC.SetBool("M_Up", true);
+
+                compro = false;
+                AC.SetBool("M_Left", true);
+                spriteRenderer.flipX = true;
                 AC.SetBool("M_Down", false);
+                AC.SetBool("M_Up", false);
+                AC.SetBool("Atack", false);
+        }
+            else if (movement.x < 0)
+            {
+
+                compro = false;
+                AC.SetBool("Atack", false);
+                AC.SetBool("M_Left", true);
+                spriteRenderer.flipX = false;
+                AC.SetBool("M_Down", false);
+                AC.SetBool("M_Up", false);
             }
             else
             {
-                AC.SetBool("M_Left", false);
-                AC.SetBool("M_Up", false);
-                AC.SetBool("M_Down", true);
+                compro = true;
             }
-        }
+            if (compro == true)
+            {
+                if (movement.y > 0)
+                {
+                    AC.SetBool("Atack", false);
+                    AC.SetBool("M_Left", false);
+                    AC.SetBool("M_Up", true);
+                    AC.SetBool("M_Down", false);
+                }
+                else if(movement.y<0)
+                {
+                    AC.SetBool("Atack", false);
+                    AC.SetBool("M_Left", false);
+                    AC.SetBool("M_Up", false);
+                    AC.SetBool("M_Down", true);
+                }
+            }
         
+      
+
     }
     //Ver orientacion para ataque
 
