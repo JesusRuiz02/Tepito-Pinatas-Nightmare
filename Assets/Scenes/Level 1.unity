@@ -123,6 +123,63 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &111875447
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 111875448}
+  - component: {fileID: 111875449}
+  m_Layer: 0
+  m_Name: Cajitaderecha
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &111875448
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 111875447}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.61, y: -0.52, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2013981488}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &111875449
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 111875447}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.2075901, y: 0.16453552}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.5848198, y: 0.67092896}
+  m_EdgeRadius: 0
 --- !u!1 &148313037
 GameObject:
   m_ObjectHideFlags: 0
@@ -899,6 +956,63 @@ Transform:
   m_Father: {fileID: 1001006430}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &622623609
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 622623610}
+  - component: {fileID: 622623611}
+  m_Layer: 0
+  m_Name: Cajitaderecha (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &622623610
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 622623609}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.985, y: -0.997, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2013981488}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &622623611
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 622623609}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.2075901, y: 0.16453552}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.5848198, y: 0.67092896}
+  m_EdgeRadius: 0
 --- !u!1 &638330797
 GameObject:
   m_ObjectHideFlags: 0
@@ -1175,6 +1289,63 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &699818108
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 699818109}
+  - component: {fileID: 699818110}
+  m_Layer: 0
+  m_Name: Cajitaderecha (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &699818109
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 699818108}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.01, y: -0.019, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2013981488}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &699818110
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 699818108}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.2075901, y: 0.16453552}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.5848198, y: 0.67092896}
+  m_EdgeRadius: 0
 --- !u!1 &716606783
 GameObject:
   m_ObjectHideFlags: 0
@@ -2854,6 +3025,63 @@ CapsuleCollider2D:
   m_Offset: {x: -0.114251375, y: 0.28741002}
   m_Size: {x: 1.9078803, y: 4.345181}
   m_Direction: 0
+--- !u!1 &1334945313
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1334945314}
+  - component: {fileID: 1334945315}
+  m_Layer: 0
+  m_Name: Cajitaderecha (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1334945314
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1334945313}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.391, y: -0.502, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2013981488}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1334945315
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1334945313}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.2075901, y: 0.16453552}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.5848198, y: 0.67092896}
+  m_EdgeRadius: 0
 --- !u!1 &1376663617
 GameObject:
   m_ObjectHideFlags: 0
@@ -2957,11 +3185,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1902722771363453826, guid: 69709389d7d8565469abb7d9ed26776f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.53
+      value: 10000000
       objectReference: {fileID: 0}
     - target: {fileID: 1902722771363453826, guid: 69709389d7d8565469abb7d9ed26776f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.1
+      value: 10000000
       objectReference: {fileID: 0}
     - target: {fileID: 1902722771363453826, guid: 69709389d7d8565469abb7d9ed26776f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2999,6 +3227,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyCorrect
       objectReference: {fileID: 0}
+    - target: {fileID: 1902722771363453827, guid: 69709389d7d8565469abb7d9ed26776f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1902722771363453827, guid: 69709389d7d8565469abb7d9ed26776f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1902722771363453829, guid: 69709389d7d8565469abb7d9ed26776f, type: 3}
       propertyPath: m_Size.x
       value: 5.7200003
@@ -3009,6 +3245,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1902722771363453829, guid: 69709389d7d8565469abb7d9ed26776f, type: 3}
       propertyPath: m_WasSpriteAssigned
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1902722771363453831, guid: 69709389d7d8565469abb7d9ed26776f, type: 3}
+      propertyPath: m_Radius
+      value: 5.7152176
+      objectReference: {fileID: 0}
+    - target: {fileID: 1902722771363453831, guid: 69709389d7d8565469abb7d9ed26776f, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1902722771363453831, guid: 69709389d7d8565469abb7d9ed26776f, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.32649994
+      objectReference: {fileID: 0}
+    - target: {fileID: 1902722771363453831, guid: 69709389d7d8565469abb7d9ed26776f, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.091106296
+      objectReference: {fileID: 0}
+    - target: {fileID: 1902722771363453831, guid: 69709389d7d8565469abb7d9ed26776f, type: 3}
+      propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1902722771533816044, guid: 69709389d7d8565469abb7d9ed26776f, type: 3}
@@ -3034,6 +3290,14 @@ PrefabInstance:
     - target: {fileID: 1902722771533816045, guid: 69709389d7d8565469abb7d9ed26776f, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1902722771533816046, guid: 69709389d7d8565469abb7d9ed26776f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2064008144587391074, guid: 69709389d7d8565469abb7d9ed26776f, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6411786417430917616, guid: 69709389d7d8565469abb7d9ed26776f, type: 3}
       propertyPath: AC
@@ -3418,7 +3682,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 045b2231111988342b3bfe0ca6585a7a, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.089
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -3559,6 +3823,40 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2013981487
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2013981488}
+  m_Layer: 0
+  m_Name: Cajitapalwey
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2013981488
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2013981487}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -40.126038, y: 27.751125, z: -9.069624}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 111875448}
+  - {fileID: 1334945314}
+  - {fileID: 622623610}
+  - {fileID: 699818109}
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2020459372
 GameObject:
@@ -3749,6 +4047,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1305683397251094512, guid: 88c23bf8fbc95d2438caee7e7d17e8d4, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1305683397251094512, guid: 88c23bf8fbc95d2438caee7e7d17e8d4, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 3474492911324667297, guid: 88c23bf8fbc95d2438caee7e7d17e8d4, type: 3}
       propertyPath: m_Name
       value: Player
@@ -3757,6 +4063,10 @@ PrefabInstance:
       propertyPath: m_FlipX
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3474492911324667298, guid: 88c23bf8fbc95d2438caee7e7d17e8d4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 3474492911324667299, guid: 88c23bf8fbc95d2438caee7e7d17e8d4, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -3805,9 +4115,21 @@ PrefabInstance:
       propertyPath: healthbar
       value: 
       objectReference: {fileID: 1095055525}
+    - target: {fileID: 3474492911324667304, guid: 88c23bf8fbc95d2438caee7e7d17e8d4, type: 3}
+      propertyPath: maxHealth
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 3474492911324667310, guid: 88c23bf8fbc95d2438caee7e7d17e8d4, type: 3}
       propertyPath: m_IsTrigger
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5645637023931534460, guid: 88c23bf8fbc95d2438caee7e7d17e8d4, type: 3}
+      propertyPath: attackRange
+      value: 0.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 5645637023931534460, guid: 88c23bf8fbc95d2438caee7e7d17e8d4, type: 3}
+      propertyPath: enemyLayers.m_Bits
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 88c23bf8fbc95d2438caee7e7d17e8d4, type: 3}
