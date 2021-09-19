@@ -7,6 +7,7 @@ public class Player : MonoBehaviour
     public int maxHealth = 20;
     public int currentHealth;
     public bool onDeath = false;
+    
 
     public HealthBar healthbar;
 
@@ -15,6 +16,7 @@ public class Player : MonoBehaviour
     {
         currentHealth = maxHealth;
         healthbar.SetMaxHealth(maxHealth);
+        
     }
 
     // Update is called once per frame
