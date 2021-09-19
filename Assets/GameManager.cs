@@ -24,5 +24,11 @@ public class GameManager : MonoBehaviour
     public void Ganaste()
     {
         Debug.Log("Ganaste");
+        Invoke("Restart", restartDelay);
+    }
+
+    public void LoadScene(string sceneName)
+    {
+        SceneManager.LoadScene(sceneName);
     }
 }

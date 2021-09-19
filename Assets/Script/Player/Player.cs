@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
@@ -10,7 +11,9 @@ public class Player : MonoBehaviour
     private int score = 0;
     private GameManager gameManager;
     private Lechuga lechuga;
-    
+    public GameObject canvas;
+    public GameObject canvasLost;
+    Text instruction;
 
     public HealthBar healthbar;
 
@@ -19,7 +22,8 @@ public class Player : MonoBehaviour
     {
         currentHealth = maxHealth;
         healthbar.SetMaxHealth(maxHealth);
-        
+        canvas.SetActive(false);
+        instruction = gameObject.GetComponent<Text>();
     }
 
     // Update is called once per frame
@@ -56,9 +60,10 @@ public class Player : MonoBehaviour
     void scorePoint()
     {
         score++;
-        if (score>=3)
+        if (score>=5)
         {
-            gameManager.Ganaste();
+            FindObjectOfType<GameManager>().Ganaste();
+            canvas.SetActive(true);
         }
         
         
@@ -73,6 +78,7 @@ public class Player : MonoBehaviour
         if (currentHealth <= 0)
         {
             FindObjectOfType<GameManager>().GameOver();
+            canvasLost.SetActive(true);
         }
     }
 }

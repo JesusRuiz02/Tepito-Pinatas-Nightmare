@@ -8,6 +8,9 @@ TagManager:
   - Gameplay Areay
   - Light
   - Point
+  - Button
+  - WinningScreen
+  - LoosingScreen
   layers:
   - Default
   - TransparentFX
